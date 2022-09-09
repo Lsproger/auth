@@ -15,6 +15,9 @@ paths:
       summary: Finds all accounts
 components:
   securitySchemes:
-    BasicAuth:
+    basicAuth:
       type: http
       scheme: basic
+security:
+  - basicAuth: []
+  
