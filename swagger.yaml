@@ -13,3 +13,8 @@ paths:
         - accounts
       operationId: findAccounts
       summary: Finds all accounts
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
